@@ -67,7 +67,7 @@ spec:
     - name: database_uri
       description: database access for tests
       type: string
-      default: "sqlite://test.db"
+      default: "sqlite:///test.db"
   steps:
     - name: nosetests
       image: python:3.9-slim
